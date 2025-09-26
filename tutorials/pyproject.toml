@@ -1,0 +1,24 @@
+[project]
+name = "tutorials"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.2.1",
+    "ipykernel>=6.29.5",
+    "loguru>=0.7.3",
+    "openai>=1.91.0",
+    "opik==1.7.36",
+    "pixeltable>=0.4.1",
+    "pydantic>=2.11.7",
+    "pydantic-settings>=2.10.0",
+    "python-dotenv>=1.1.0",
+    "ruff>=0.12.0"
+]
+
+
+[tool.uv]
+override-dependencies = [
+    "litellm==1.77.1"
+]
